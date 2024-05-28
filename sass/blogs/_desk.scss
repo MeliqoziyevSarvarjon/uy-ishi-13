@@ -1,0 +1,90 @@
+.desk{
+    width: 100%;
+    border: 1px solid;
+    border-color: white;
+    margin-top: 323px;
+}
+.title{
+    font-family: Fraunces 9pt;
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+text-align: left;
+color:#83888F;
+}
+.desk__wrapper{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+
+}
+.desk__card{
+    width: 285px;
+    height: 355px;
+    margin-top: 120px;
+}
+.desk__card__01{
+    font-family: Fraunces 9pt;
+font-size: 72px;
+font-weight: 900;
+line-height: 72px;
+text-align: left;
+color:#FDD6BA;
+}
+.desk__card__title{
+    font-family: Fraunces 9pt;
+font-size: 32px;
+font-weight: 900;
+line-height: 36px;
+text-align: left;
+margin-top: 38px;
+}
+.desk__card__text{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: #333D4B;
+margin-top: 42px;
+}
+.desk__btn{
+    margin-top: 41px;
+}
+@media only screen and (max-width:700px){
+    .desk{
+        height: auto;
+    }
+    .desk__wrapper{
+        display: flex;
+        align-items: center;
+    }
+    .desk__card{
+        height: auto;
+    }
+    .title{
+        margin-top: 300px;
+    }
+}
+@media only screen and (max-width:500px){
+    .desk{
+        margin-top: 900px;
+    }
+    .desk__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        gap:2px;
+    }
+    .title{
+        margin-top: 300px;
+        margin-left: 130px;
+    }
+    .desk__btn{
+        margin-left: 130px;
+    }
+}

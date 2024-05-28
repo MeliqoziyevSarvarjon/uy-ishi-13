@@ -1,0 +1,108 @@
+.reclam{
+    width: 100%;
+    height: 728px;
+    background: rgb(41, 42, 66);        
+}
+.reclam__content{
+    width: 40%;
+    height: 160px;
+    margin-top: 100px;
+}
+.reclam__content__title{
+    font-family: Fraunces 9pt;
+font-size: 40px;
+font-weight: 900;
+line-height: 48px;
+text-align: center;
+color: white;
+}
+.reclam__content__text{
+    font-family: Barlow;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color:#FEFCF7;
+margin-top: 32px;
+}
+.reclam__wrapper{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.reclam__card{
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    justify-content: center;
+}
+.reclam__img{
+    width: 72px;
+    height: 72px;
+}
+.reclam__img__item{
+    width: 72px;
+    height: 72px;
+
+}
+.reclam__content__card{
+    width: 255px;
+    height: 134px;
+}
+.reclam__content__card__title{
+    font-family: Fraunces 9pt;
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+text-align: center;
+color: white;
+}
+.reclam__content__card__text{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color:#FEFCF7;
+margin-top: 24px;
+}
+.reclam__card__wrapper{
+    width: 100%;
+    height:382px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+@media only screen and (max-width:700px){
+    .reclam__card__wrapper{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reclam__card{
+        width: 573px;
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width:500px){
+    .reclam__card__wrapper{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reclam__card{
+        width: 279px;
+        height: 382px;
+        display: flex;
+        flex-direction:column;
+    }
+}
